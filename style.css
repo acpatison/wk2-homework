@@ -1,0 +1,122 @@
+/* Page Style */
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: teal;
+}
+/* Header Style */
+.header {
+    color: navy;
+    background-color: rgb(146, 230, 236);
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    border: 20px solid  navy;
+}
+#title {
+    text-decoration: underline;
+    font-size: xx-large;
+}
+#sub-title {
+    font-style: italic;
+}
+.Prof-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation Button Style */
+.nav-bar {
+    display: inline-block;
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(146, 230, 236);
+    width: 100%;
+}
+#button1, #button2, #button3 {
+    width: 30%;
+    text-decoration: none;
+    height: 50px;
+    background-color: ;
+    border: solid navy 3px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Bio Style */
+.background {
+    background-color: teal;
+}
+#Bio{
+    font-size: x-large;
+    text-decoration: underline navy;
+    color: navy;
+    border-top: solid navy 5px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+/* Work Style */
+#Work-title {
+    color: navy;
+    text-decoration: underline navy;
+    border-top: solid navy 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 10px;
+}
+div > button {
+    padding: 10px 10px;
+}
+#wk1:hover, #wk2:hover, #wk3:hover, #wk4:hover {
+    background-color: yellow;
+}
+.hover-1:hover, .hover-2:hover, .hover-3:hover, .hover-4:hover {
+    width: 101%;
+    height: 101%;
+    justify-content: center;
+}
+h4 {
+    text-decoration: underline navy;
+    color: navy;
+}
+
+/* Contact Info Styl */
+.Contact-Info {
+    background-color: teal;
+}
+#Contact-title {
+    color: navy;
+    text-decoration: underline navy;
+    font-size: x-large;;
+    border-top: solid navy 5px;
+    font-weight: bolder;
+}
+
+/* Media Query and Responsive Formatting Changes */
+@media screen and (max-width="1024px") {
+    .body {
+        background-color: white;
+    }
+}
+@media screen and (max-width="375") {
+    .Contact-Info, .Assignments, .Background {
+        background-color: white;
+    },
+    #button1, #button2, #button3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: inherit;
+    },
+    .Prof-pic {
+        height: 50%;
+        width: 50%;
+    }
+}
+
